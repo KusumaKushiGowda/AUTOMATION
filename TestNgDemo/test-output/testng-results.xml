@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-12T11:12:53 IST" name="Suite" finished-at="2023-01-12T11:12:53 IST" duration-ms="149">
+    <groups>
+      <group name="smoke">
+        <method signature="HomeTest.verifySearchbar()[pri:0, instance:TestNgDemo.Test.HomeTest@3cc2931c]" name="verifySearchbar" class="TestNgDemo.Test.HomeTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="HomeTest.verifySearchbar()[pri:0, instance:TestNgDemo.Test.HomeTest@3cc2931c]" name="verifySearchbar" class="TestNgDemo.Test.HomeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-01-12T11:12:53 IST" name="Test" finished-at="2023-01-12T11:12:53 IST" duration-ms="19">
+    </test> <!-- Test -->
+    <test started-at="2023-01-12T11:12:53 IST" name="Parallel Tests" finished-at="2023-01-12T11:12:53 IST" duration-ms="50">
+      <class name="TestNgDemo.Test.HomeTest">
+        <test-method signature="checkforLinks()[pri:0, instance:TestNgDemo.Test.HomeTest@3cc2931c]" started-at="2023-01-12T11:12:53 IST" name="checkforLinks" finished-at="2023-01-12T11:12:53 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforLinks -->
+        <test-method signature="addtoCart()[pri:0, instance:TestNgDemo.Test.HomeTest@3cc2931c]" started-at="2023-01-12T11:12:53 IST" name="addtoCart" finished-at="2023-01-12T11:12:53 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method signature="verifySearchbar()[pri:0, instance:TestNgDemo.Test.HomeTest@3cc2931c]" started-at="2023-01-12T11:12:53 IST" name="verifySearchbar" finished-at="2023-01-12T11:12:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchbar -->
+      </class> <!-- TestNgDemo.Test.HomeTest -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
